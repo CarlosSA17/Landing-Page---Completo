@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar</title>
+    <link rel="stylesheet" href="css/Diseño.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&family
+	=Bungee&family=Courgette&family=Lobster&family=Monoton&family=Pacifi
+	co&family=Raleway&family=Saira+Condensed&family=Tangerine:wght@700&
+	display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="elegir"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Iniciar Sesion</button>
+                    <button type="button" class="toggle-btn" onclick="registrar()">Registrar</button>
+            </div>
+            <div class="redes-sociales">
+                <img src="Img/facebook.png" alt="icono_facebook">
+                <img src="Img/gorjeo.png" alt="icono_twitter">
+                <img src="Img/google.png" alt="icono_google">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Nombre de Usuario" required>
+                <input type="password" class="input-field" placeholder="Contraseña" required>
+                <input type="checkbox" class="checkbox"><span>Recordar Contraseña</span>
+                <button type="submit" class="submit-btn"><a href="registrandose.html">Acceder</a></button>
+                <form id="cambiar">
+                <button type="submit" class="submit-btn1"><a href="sinRegistrarse.html">Acceder sin registrarse</a></button>
+                </form>
+            </form>
+            <form id="registrar" class="input-group">
+                <input type="text" class="input-field" placeholder="Nombre de Usuario" required>
+                <input type="email" class="input-field" placeholder="Ingrese su correo" required>
+                <input type="password" class="input-field" placeholder="Contraseña" required>
+                <input type="checkbox" class="checkbox" required><span class="terminos"><a href="Términos/NuevoIndex.html" target="_blan">Acepta los Términos y Condiciones</a></span>
+                <button type="submit" class="submit-btn">Registrar</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/Accion.js"></script>
+</body>
+</html>
